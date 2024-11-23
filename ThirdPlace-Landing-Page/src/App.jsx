@@ -1,5 +1,7 @@
 import './App.css'
 import NavBar from './components/navigation/NavBar'
+import homePageImg from '../src/assets/ThirdPlace_home page.png'
+import viewLocationsImg from '../src/assets/ThirdPlace_view locations.png'
 
 function App() {
 
@@ -22,8 +24,22 @@ function App() {
       </section>
 
       <section id='about'>
-        <h2>About the Project</h2>
-        <p>ThirdPlace was create as our capstone project during LaunchCode's Web Development program in 2024. Part of our team decided that we wanted to continue development of this project and we hope to complete our vision soon.</p>
+        <div>
+          <h2>About the Project</h2>
+          <p>ThirdPlace was create as our capstone project during LaunchCode's Web Development program in 2024. Part of our team decided that we wanted to continue development of this project and we hope to complete our vision soon.</p>
+        </div>
+        <div className='img-divs'>
+          <img 
+            src={homePageImg}
+            id='home-page-img'
+          ></img>
+        </div>
+        {/* <div className='img-divs'>
+          <img 
+            src={viewLocationsImg}
+            id='view-locations-img'
+          ></img>
+        </div> */}
         <a href='#learn-more'>
           <button>Learn More</button>
         </a>
