@@ -51,27 +51,30 @@ function App() {
         <div className='container'>
           <form>
             <label className="form-label">
-              Name
+              {/* Name */}
               <input
                 type='text'
                 name='name'
+                placeholder='Name'
                 className="form-control"
                 required
               />
             </label>
             <label className="form-label">
-              Email
+              {/* Email */}
               <input
                 type='text'
                 name='email'
+                placeholder='Email'
                 className="form-control"
                 required
               />
             </label>
             <label className="form-label">
-              What interests you about this project?
+              {/* What interests you about this project? */}
               <textarea
                 name='question'
+                placeholder='What interests you about this project?'
                 className="form-control"
                 color='5'
                 rows={5}
