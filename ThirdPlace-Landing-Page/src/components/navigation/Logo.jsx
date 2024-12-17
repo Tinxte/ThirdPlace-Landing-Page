@@ -5,7 +5,7 @@ export default function Logo() {
 
     return (
 
-        <a class="navbar-brand" href='#'>
+        <a class="navbar-brand">
             <img 
                 src={navLogo}
                 className='d-inline-block align-top'
